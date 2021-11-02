@@ -1,0 +1,20 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+  --first-brand-color: #04a8e9;
+  --second-brand-color: yellow;
+  --third-brand-color:red;
+
+  --main-font:  'Saira SemiCondensed';
+  --title-font:  'Saira SemiCondensed SemiCond';
+  --main-title-font: 'Anton';
+
+  font-size: 62.5%;
+}

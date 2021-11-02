@@ -1,0 +1,66 @@
+.hero__wrapper {
+    background-image: url('https://www.mensjournal.com/wp-content/uploads/2020/05/gym.jpg?quality=86&strip=all');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    padding: 20rem 0 10rem;
+    text-align: center;
+}
+.hero .title {
+    margin-bottom: 4rem;
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+    display: inline-block;
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+.mySwiper {
+    padding-bottom: 5rem;
+}
+.mySwiper .swiper__img {
+   display: block;
+   width: 100%;
+   margin-bottom: 3rem;
+}
+.mySwiper .swiper__name {
+    font-family: var(--main-title-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.mySwiper .swiper__desc {
+    font-size: 1.8rem;
+}
+.mySwiper .swiper-pagination-bullet {
+    background-color: #e8e8e8;
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: 1;
+}
+.mySwiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--first-brand-color);
+}
+@media screen and (min-width: 1024px) {
+    .hero {
+        text-align: left;
+    }
+    .hero .title {
+        margin-bottom: 15rem;
+    }
+    .swiper-slide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .mySwiper .swiper__img {
+        width: 50%;
+        margin-bottom: 0;
+        margin-right: 5rem;
+    }
+}
