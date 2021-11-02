@@ -9,7 +9,7 @@
     margin-right: auto;
 }
 .orders__btn svg {
-    fill: var(--third-brand-color);
+    fill: var(--sub-text-color);
     width: 2rem;
     margin-right: 2rem;
     transition: all 0.3s ease-in-out;
